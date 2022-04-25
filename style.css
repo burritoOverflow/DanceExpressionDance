@@ -1,0 +1,321 @@
+:root {
+  --main-deda-color: #7a3f84;
+}
+
+h4 {
+  color: var(--main-deda-color);
+}
+
+.deda-theme {
+  background-color: var(--main-deda-color);
+}
+
+#main-jt {
+  text-align: center;
+}
+
+.text-muted {
+  color: black !important;
+  font-weight: 500;
+}
+
+.deda-button {
+  font-size: large;
+  padding: 1.3em;
+  margin: 0.43em;
+  border-radius: 30px;
+  background-color: var(--main-deda-color);
+  color: white;
+  font-weight: 500;
+  padding: 1.1em;
+}
+
+.deda-button-alt {
+  font-size: large;
+  padding: 1.3em;
+  margin: 0.43em;
+  border-radius: 30px;
+  background-color: rgb(25, 150, 192);
+  color: black;
+  font-weight: 500;
+  padding: 1.1em;
+}
+
+.card {
+  transition-duration: 900ms;
+  height: 100%;
+  border-radius: 30px;
+}
+
+.card > img {
+  border-radius: 30px;
+}
+
+.card:hover {
+  font-size: medium;
+  transform: translate(4%, -5%);
+  background-color: lightpink;
+  color: black;
+  box-shadow: 9px 12px 12px -6px lightgrey !important;
+}
+
+.main-p-text {
+  font-size: x-large;
+}
+
+.shorter-text {
+  width: 56%;
+}
+
+.list-group {
+  text-align: center;
+  padding: 1em;
+}
+
+.list-group:hover {
+  transition-duration: 458ms;
+  transform: translate(0%, -3%);
+  box-shadow: 9px 12px 12px -6px lightgrey !important;
+}
+
+.list-group li {
+  border: 1px solid var(--main-deda-color);
+  font-size: larger;
+}
+
+.list-group li:hover {
+  background-color: var(--main-deda-color);
+  color: white;
+}
+
+.summary-list {
+  list-style-type: none;
+}
+
+.summary-list li {
+  margin: 0.45em;
+}
+
+.grid-container {
+  display: grid;
+  place-items: center;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.main-header {
+  font-size: xx-large;
+  color: black;
+}
+
+.gradient-background {
+  background-image: linear-gradient(white, var(--main-deda-color));
+}
+
+.card-button {
+  margin-left: 10px;
+  margin-bottom: 12px;
+}
+
+#main-top-jumbotron {
+  background-color: black;
+  color: lightgrey;
+}
+
+#center-grid {
+  border: 1px solid var(--main-deda-color);
+  transition-duration: 1.3s;
+  display: grid;
+  place-items: center;
+  margin: 0.5em;
+  background-color: white;
+  padding: 1.5%;
+  border-radius: 30px;
+}
+
+#halloween-center-grid {
+  border: 2px solid orange;
+  transition-duration: 700ms;
+  display: grid;
+  place-items: center;
+  margin: 0.5em;
+  background-color: rgb(8, 8, 8);
+  padding: 1.5%;
+  border-radius: 30px;
+}
+
+#christmas-center-grid {
+  border: 2px solid green;
+  transition-duration: 991ms;
+  display: grid;
+  place-items: center;
+  margin: 0.5em;
+  background-color: rgb(43, 63, 37);
+  padding: 1.5%;
+  border-radius: 30px;
+}
+
+#center-grid:hover {
+  transform: translate(1%, -5%);
+  box-shadow: 12px 12px 12px -6px purple !important;
+}
+
+#christmas-center-grid:hover {
+  transform: translate(1%, -5%);
+  box-shadow: 16px 17px 21px -9px rgb(217, 222, 224) !important;
+}
+
+.orange {
+  color: orange;
+}
+.orange:hover {
+  color: black;
+}
+
+.green {
+  color: green;
+}
+
+.green:hover {
+  color: black;
+}
+
+.red {
+  color: red;
+}
+
+#christmas-header {
+  background-color: red;
+  border-bottom: 2px solid green;
+  border-radius: 12px;
+  margin-top: 5%;
+  padding: 2%;
+}
+
+.red:hover {
+  color: black;
+}
+
+.halloween {
+  background-image: linear-gradient(black, rgb(138, 97, 23));
+  color: white;
+}
+
+.halloween-container > * {
+  color: white;
+}
+
+.halloween-header {
+  color: white;
+  text-align: center;
+  padding-bottom: 0;
+}
+
+#hl-ul {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hl-li {
+  background-color: black;
+  color: white;
+  border: 1px solid orange;
+  border: 1px solid orange;
+}
+
+.hl-li:hover {
+  color: black !important;
+  background-color: orange !important;
+}
+
+.halloween-button {
+  font-size: large;
+  padding: 1.3em;
+  margin: 0.43em;
+  border-radius: 12px;
+  background-color: black;
+  color: orange;
+  font-weight: 500;
+  padding: 1.1em;
+}
+
+.halloween-button:hover {
+  font-size: large;
+  padding: 1.3em;
+  margin: 0.43em;
+  border-radius: 12px;
+  background-color: orange;
+  color: black;
+  font-weight: 500;
+  padding: 1.1em;
+}
+
+.christmas-button {
+  font-size: large;
+  padding: 1.3em;
+  margin: 0.43em;
+  border-radius: 12px;
+  background-color: green;
+  color: black;
+  font-weight: 500;
+  padding: 1.1em;
+}
+
+.christmas-button:hover {
+  font-size: large;
+  padding: 1.3em;
+  margin: 0.43em;
+  border-radius: 12px;
+  background-color: red;
+  color: black;
+  font-weight: 500;
+  padding: 1.1em;
+}
+
+.christmas-top-container {
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid red;
+  padding-top: 2.5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 5.2%;
+  margin-top: -4%;
+}
+
+.emphasis {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.centered-container {
+  display: grid;
+  place-items: center;
+}
+
+.main-spring-p {
+  padding-top: 15%;
+}
+
+.small-card {
+  height: 75%;
+}
+
+.date-aside {
+  margin: 0.43em;
+  box-shadow: 8px 7px 5px rgba(0, 0, 0, 0.5);
+  display: grid;
+  place-items: center;
+  background-color: lightpink;
+  font-style: italic;
+  border-radius: 22px;
+  width: 32%;
+  padding: 0.54em;
+}
+
+.main-container-bb {
+  border-radius: 45px;
+}
