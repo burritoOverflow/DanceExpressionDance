@@ -19,6 +19,10 @@ h4 {
   font-weight: 500;
 }
 
+.notable-header {
+  color: var(--main-deda-color);
+}
+
 .deda-button {
   font-size: large;
   padding: 1.3em;

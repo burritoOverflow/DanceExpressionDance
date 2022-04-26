@@ -71,7 +71,6 @@ img:hover {
 .slide {
   transition-duration: 300ms;
   animation: 1s ease-out 0s 1 slideInFromLeft;
-  /* background-color: black; */
   padding: 1.2em;
   margin-bottom: 12px;
   border-radius: 30px;
