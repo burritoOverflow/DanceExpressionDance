@@ -5,7 +5,7 @@ phases:
     commands:
       - echo Syncing contents to S3
       - export LC_ALL=C.UTF-8
-      - aws s3 sync . "s3://${S3_BUCKET_NAME}" --exclude '.git/*'
+      - git diff --name-only HEAD HEAD~1 | xargs -n1 -I '{}' aws s3 cp '{}' "s3://${S3_BUCKET_NAME}"
       - echo Finished sync to S3.
       - echo Invalidating CloudFront Cache
       - aws cloudfront create-invalidation --distribution-id "${CF_DISTRIBUTION_ID}" --paths '/*'
