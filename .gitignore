@@ -1,2 +1,4 @@
-generate_divs.py
+*.py
 testbuild.sh
+scrap.html
+.vscode/
