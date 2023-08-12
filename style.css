@@ -57,7 +57,7 @@ h4 {
 
 .card:hover {
   font-size: medium;
-  transform: translate(4%, -5%);
+  transform: translate(1%, -2%);
   background-color: lightpink;
   color: black;
   box-shadow: 9px 12px 12px -6px lightgrey !important;
@@ -322,4 +322,11 @@ h4 {
 
 .main-container-bb {
   border-radius: 45px;
+}
+
+@media screen and (max-width: 815px) {
+  .date-aside {
+    min-width: 65%;
+    margin: 1em;
+  }
 }
