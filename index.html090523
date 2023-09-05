@@ -1,1 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Dance Expression Dance Arts - Pop-Up Classes</title>
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
 
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="collapse deda-theme" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">About</h4>
+              <p class="text-muted" style="color: white !important">
+                DEDA offers a variety of 4 - 6 Weeks Sessions for Toddlers
+                (beginning at 12 months) to 3 yr old Pre-Schoolers.
+              </p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contact</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <a
+                    href="https://www.facebook.com/DanceExpressionDanceArts"
+                    class="text-white"
+                    >Like on Facebook</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.danceexpression.com/contact"
+                    class="text-white"
+                    >Contact us for more information</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="main-navbar" class="navbar navbar-dark shadow-sm deda-theme">
+        <div class="container">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <strong>Deda Pop-Up Classes</strong>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarHeader"
+            aria-controls="navbarHeader"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="py-5 text-center container">
+        <div id="main-top-jumbotron" class="p-5 mb-4 rounded-3">
+          <div class="container-fluid text-center py-3">
+            <img src="images/dedalogo.png" alt="dedalogo" />
+            <p class="main-p-text">
+            3339 Rt. 94, Hamburg, NJ 07419<br/>
+            973-823-9500 - DanceExpression.com
+            </p>
+            <h1 class="display-5 fw-bold">
+              2023-2024 4-6 Week Sessions and Pop-Up Classes
+            </h1>
+            <p class="fs-4 text-center"></p>
+            <h4>4 - 6 Week Session for 1 yr - 3 yrs</h4>
+            <p class="main-p-text">
+              DEDA offers a variety of 4 - 6 Weeks Sessions for Toddlers
+              (beginning at 12 months) to 3 yr old Pre-Schoolers.
+            </p>
+
+            <p class="main-p-text">
+              Our 4 - 6 Week Sessions are a great way to introduce your child to
+              movement and activity classes without a long commitment.
+            </p>
+
+            <h4>Pop-Up Classes</h4>
+            <p class="main-p-text text-center">
+              Throughout the season DEDA offers Exciting and Fun Themed Summer
+              CAMPS, Pop-Up Classes and Dance Parties for students ages 3 - 12
+              yrs.
+            </p>
+
+            <h4>Sunday Series</h4>
+            <p class="main-p-text">
+              Watch for our Sunday Series and Master Classes in all genres for
+              students ages 9 - 18 yrs too!
+            </p>
+
+            <h3 class="notable-header">We can't wait to dance with you!</h3>
+          </div>
+        </div>
+      </section>
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./images/babybop_image.jpg"
+                  alt="Baby Bop"
+                  class="bd-placeholder-img card-img-top"
+                  width="100%"
+                  height="345"
+                />
+
+                <div class="card-body">
+                  <p class="card-text"></p>
+                  <p class="text-center main-p-text">
+                    Looking for a safe way to create special memories with your
+                    little one?
+                  </p>
+                  <p class="text-center">
+                    Baby Bop - 1-2 yrs. and Parent
+                  </p>
+                  <p class="text-center">
+                    The 1 - 2 yrs Parent/Tot program (Baby Bop) is
+                    designed with the specific needs of a 1-2 yr old Toddler in
+                    mind so we can Play and Learn!
+                  </p>
+                  <p class="text-center">
+                    Our class uses the Caregiver to help us orient their child
+                    through the structured and guided activities, while
+                    simultaneously encouraging the child’s natural movement.
+                  </p>
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center card-button"
+                >
+                  <div class="btn-group">
+                    <a
+                      type="button"
+                      href="boppin.html"
+                      class="btn btn-sm btn-outline-secondary deda-button"
+                      >More Info</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./images/dwm.jpg"
+                  alt="TumblingTots"
+                  class="bd-placeholder-img card-img-top"
+                  width="100%"
+                  height="345"
+                />
+
+                <div class="card-body">
+                  <p class="card-text"></p>
+                  <p class="text-center main-p-text">
+                    Looking for a safe way to create special memories with your
+                    little one? Does your 2-year-old love moving, groovin', and
+                    singing everywhere they go?
+                  </p>
+                  <p class="text-center">
+                    Dance with Me sessions are the perfect place for you to
+                    explore the world of dance together!
+                  </p>
+                  <p class="text-center">
+                    This proven program is designed specifically as a first
+                    dance class for 2-year-olds to discover movement and create
+                    lasting memories with a caregiver.
+                  </p>
+                  <p class="text-center">
+                    Watch as your little one expands creativity and develops
+                    important life skills such as coordination, listening,
+                    following instructions, and more!
+                  </p>                 
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center card-button"
+                >
+                  <div class="btn-group">
+                    <a
+                      type="button"
+                      href="dancewithme.html"
+                      class="btn btn-sm btn-outline-secondary deda-button"
+                      >More Info</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <img
+                  src="./images/TinyDancer_deda.png"
+                  alt="Spring Fling"
+                  class="bd-placeholder-img card-img-top"
+                  width="100%"
+                  height="345"
+                />
+
+                <div class="card-body">
+                  <h3 class="card-text text-center">
+                 
+                  </h3>
+                  
+                   <div class="card-body">
+                  <p class="text-center main-p-text"> Try a Free Trial Class!<br/>
+(ages 2 1/2 - 19+ yrs)</p>
+                 <p class="text-center">
+                   Tiny Dancers - Hippity Hop - Pre-Ballet</p>
+                  <p class="text-center">Hip Tots - Kids Bop - Hip Hop</p>
+                  <p class="text-center">Ballet - Jazz - Modern - Tap</p>
+                   <p class="text-center">Contemporary - Acro Tumble Dance</p>
+                  <p class="text-center">Lyrical - Broadway Bound 
+                  </p> 
+                  
+                </div>
+                <div
+                  <main class="spring-container centered-container">
+                    <aside class="text-center main-p-text">
+                    <ul class="summary-list">
+              
+                        <!-- <li>Saturday September 10</li> -->
+                       <!--  <li>Wed 10:00-11:30 starting July 20th</li>
+                        <li>
+                          FIND YOUR GIFT, BE a PRINCESS and a CHEERLEADER and
+                          get on the PAW PATROL!
+                        </li>
+                        <li>Camps - $35 each</li>
+                        <li>Enroll and book your spot today!</li> -->
+                      </ul> 
+                    </aside>
+                    <p class="text-center main-p-text"></p>
+                    <div class="btn-group">
+                      <a type="button" href="https://www.danceexpression.com/free-trial-class1" class="btn btn-sm btn-outline-secondary deda-button"
+                      >
+                        Sign Up Here</a
+                      >
+                     <!-- <a
+                        type="button"
+                       href="https://revisemysite.com/eFormz/view.php?id=288933" 
+                        class="btn btn-sm btn-outline-secondary deda-button"
+                      >
+                        Enroll Now</a
+                      > -->
+                    </div>
+                  </main>
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center card-button"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="text-muted py-5">
+      <div class="container">
+        <p class="float-end mb-1"></p>
+        <p class="mb-1">&copy; Dance Expression Dance Arts 2021</p>
+      </div>
+    </footer>
+
+    <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
